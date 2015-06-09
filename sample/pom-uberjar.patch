@@ -1,0 +1,18 @@
+24c24,38
+<     <plugins/>
+---
+>   <plugins>
+>     <plugin>
+>       <artifactId>maven-assembly-plugin</artifactId>
+>       <configuration>
+>         <archive>
+>           <manifest>
+>             <mainClass>sample.core</mainClass>
+>           </manifest>
+>         </archive>
+>         <descriptorRefs>
+>           <descriptorRef>jar-with-dependencies</descriptorRef>
+>         </descriptorRefs>
+>       </configuration>
+>     </plugin>
+>   </plugins>
